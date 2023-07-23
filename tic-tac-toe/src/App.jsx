@@ -1,13 +1,14 @@
 
 import './App.css'
+import Grid from './components/Grid/Grid'
 
 function App() {
 
 
   return (
     <>
-     hello
-     <Card />
+
+   <Grid numberOfCards={9}/>
     
     </>
   )
